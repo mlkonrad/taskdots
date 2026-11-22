@@ -1,0 +1,39 @@
+#panel .panel-button.taskdots,
+#panel .panel-button.taskdots:hover,
+#panel .panel-button.taskdots:active,
+#panel .panel-button.taskdots:focus {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.taskdots-box {
+    spacing: 2px;
+}
+
+.taskdots-button {
+    padding: 0 5px;
+    border-radius: 6px;
+}
+
+.taskdots-button:hover {
+    background-color: rgba(255, 255, 255, 0.12);
+}
+
+.taskdots-content {
+    spacing: 6px;
+}
+
+.taskdots-title {
+    max-width: 160px;
+}
+
+.taskdots-dot {
+    width: 4px;
+    height: 4px;
+    margin-top: 2px;
+    border-radius: 2px;
+}
+
+.taskdots-button:checked .taskdots-dot {
+    background-color: -st-accent-color;
+}

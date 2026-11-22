@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist>
+  <enum id="org.gnome.shell.extensions.taskdots.Position">
+    <value nick="left" value="0"/>
+    <value nick="center" value="1"/>
+    <value nick="right" value="2"/>
+  </enum>
+  <enum id="org.gnome.shell.extensions.taskdots.Display">
+    <value nick="icon" value="0"/>
+    <value nick="icon-title" value="1"/>
+    <value nick="title" value="2"/>
+  </enum>
+  <schema id="org.gnome.shell.extensions.taskdots" path="/org/gnome/shell/extensions/taskdots/">
+    <key name="position" enum="org.gnome.shell.extensions.taskdots.Position">
+      <default>'left'</default>
+      <summary>Position in the top bar</summary>
+      <description>Which section of the top bar shows the window list.</description>
+    </key>
+    <key name="display" enum="org.gnome.shell.extensions.taskdots.Display">
+      <default>'icon-title'</default>
+      <summary>What each window shows</summary>
+      <description>Show the app icon, the window title, or both.</description>
+    </key>
+    <key name="icon-size" type="i">
+      <range min="16" max="24"/>
+      <default>20</default>
+      <summary>Icon size</summary>
+      <description>Size of the app icons in pixels.</description>
+    </key>
+  </schema>
+</schemalist>

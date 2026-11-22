@@ -1,0 +1,8 @@
+{
+    "uuid": "taskdots@mlkonrad.github.com",
+    "name": "Taskdots",
+    "description": "A minimal window list for the top bar.\n\nOne icon per window on the current workspace, with a small dot under the focused one.\n\n* Click to focus a window, click again to minimize it\n* Middle-click to close\n* Scroll to switch between windows\n* Place it on the left, center or right of the top bar",
+    "shell-version": ["51"],
+    "settings-schema": "org.gnome.shell.extensions.taskdots",
+    "url": "https://github.com/mlkonrad/taskdots"
+}
